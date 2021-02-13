@@ -263,7 +263,17 @@ h6 {
     padding: 6px 18px;
   }
 }
-
+.aboutimage {
+  padding-left: 55vh;
+  height: 270px;
+}
+@media screen and (max-width: 768px) {
+  .aboutimage {
+  padding-left:0px;
+  height: 250px;
+}
+  }
+}
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -527,6 +537,7 @@ section {
 }
 
 .about .content p {
+  padding-top: 70px;
   margin-bottom: 30px;
 }
 
