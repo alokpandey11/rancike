@@ -226,7 +226,18 @@ h6 {
     content: "\ea9d";
   }
 }
-
+.app-btn {
+  margin-left: 125px;
+  background: #1588c1;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
@@ -467,7 +478,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e03a3c;
+  background: #1588c1;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -495,100 +506,6 @@ section {
   left: 0;
   right: 0;
   transform: skewY(-3deg);
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #2b2b2b;
-  min-height: 40px;
-  margin-top: 82px;
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 57px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol a {
-  color: #aaaaaa;
-}
-
-.breadcrumbs ol a:hover {
-  color: #fff;
-  transition: 0.3s;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #e03a3c;
-  content: "/";
-}
-
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients .owl-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.clients .owl-item img {
-  width: 60%;
-  opacity: 0.5;
-  transition: 0.3s;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.clients .owl-item img:hover {
-  opacity: 1;
-  -webkit-filter: none;
-  filter: none;
-}
-
-.clients .owl-nav,
-.clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.clients .owl-dot.active {
-  background-color: #e03a3c !important;
 }
 
 /*--------------------------------------------------------------
@@ -623,7 +540,7 @@ section {
   font-size: 13px;
   display: inline-flex;
   align-items: center;
-  border: 2px solid #e03a3c;
+  border: 2px solid #1588c1;
 }
 
 .about .content .about-btn i {
@@ -632,8 +549,8 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #e35052;
-  background: #e03a3c;
+  background: #1588c1;
+  background: #1588c1;
 }
 
 .about .icon-boxes .icon-box {
@@ -642,7 +559,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #e03a3c;
+  color: #164363;
   margin-bottom: 10px;
 }
 
@@ -743,13 +660,13 @@ section {
 }
 
 .tabs .nav-link:hover {
-  color: #710709;
+  color: #1588c1;
 }
 
 .tabs .nav-link.active {
-  background: #710709;
+  background: #1588c1;
   color: #fff;
-  border-color: #710709;
+  border-color: #1588c1;
 }
 
 @media (max-width: 768px) {
@@ -790,7 +707,7 @@ section {
 .tabs .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #e03a3c;
+  color: #1588c1;
 }
 
 .tabs .tab-pane p:last-child {
@@ -1046,7 +963,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #e03a3c !important;
+  background-color: #1588c1 !important;
 }
 
 @media (max-width: 767px) {
