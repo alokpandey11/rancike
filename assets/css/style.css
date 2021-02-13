@@ -7,11 +7,11 @@ body {
 }
 
 a {
-  color: #e03a3c;
+  color: #00d2ff;
 }
 
 a:hover {
-  color: #e76668;
+  color: #00d2ff;
   text-decoration: none;
 }
 
@@ -43,13 +43,13 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #710709;
+  background: #1588c1;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #970e10;
+  background: #00d2ff;
   color: #fff;
 }
 
@@ -147,7 +147,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #e03a3c;
+  color: #00d2ff;
 }
 
 .nav-menu .drop-down ul {
@@ -230,7 +230,7 @@ h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #710709;
+  background: #1588c1;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -408,8 +408,8 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #710709;
-  border: 2px solid #710709;
+  background: #1588c1;
+  border: 2px solid#1588c1;
 }
 
 #hero .btn-get-started:hover {

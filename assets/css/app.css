@@ -129,3 +129,14 @@
     margin-left: 100px;
   }
 }
+
+.counts {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 63, 120, 1) 0%,
+    rgba(58, 168, 185, 1) 100%
+  );
+}
+.counts .count-box {
+  background-color: #fff;
+}
