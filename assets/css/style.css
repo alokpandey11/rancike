@@ -264,7 +264,15 @@ h6 {
   }
 }
 .aboutimage {
+<<<<<<< Updated upstream
   padding-left: 15vh;
+=======
+<<<<<<< HEAD
+  padding-left: 55vh;
+=======
+  padding-left: 15vh;
+>>>>>>> 54e93cc61d92f41cc333800d10ce3bfa40e51adc
+>>>>>>> Stashed changes
   height: 270px;
 }
 @media screen and (max-width: 768px) {
