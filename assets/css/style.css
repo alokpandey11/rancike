@@ -4,7 +4,20 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  
 }
+
+.ytvideo{
+  width:560px;
+  height:315px;
+  background-color: #111;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+}
+
 
 a {
   color: #00d2ff;
