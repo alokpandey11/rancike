@@ -139,6 +139,7 @@
     margin-bottom: 0;
   }
 }
+
 .mainhead {
   display: flex;
   align-items: center;
@@ -338,4 +339,10 @@
 
 .services .service-box:hover .icon {
   background: #fff;
+}
+.entry {
+  margin: auto;
+  padding: 20px;
+  color: white;
+  width: 80%;
 }
