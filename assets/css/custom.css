@@ -350,3 +350,19 @@
   margin: 2% 0%;
   font-weight: 100;
 }
+.ssimage img {
+  border-radius: 20px;
+  padding: 15px;
+  height: 450px;
+  border: solid;
+  border-color: #1588c1;
+  margin-bottom: 10px;
+}
+.ssimage {
+  padding: 10px;
+  margin: 10px 25px;
+}
+.ss {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
