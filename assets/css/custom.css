@@ -366,3 +366,10 @@
   margin-bottom: 20px;
   padding: 5px 10px;
 }
+.why .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #ccf7f5;
+}
+.why .content p {
+  padding-top: 10px;
+}
