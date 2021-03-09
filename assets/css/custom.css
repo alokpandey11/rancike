@@ -81,7 +81,7 @@
 
 .our-core-values-first-row > div[class|="col"]:not(:last-child),
 .our-core-values-second-row > div[class|="col"]:not(:last-child) {
-  border-right: 1px solid #e98024;
+  border-right: 1px solid #179fe2;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -345,4 +345,8 @@
   padding: 20px;
   color: white;
   width: 80%;
+}
+.why {
+  margin: 2% 0%;
+  font-weight: 100;
 }
