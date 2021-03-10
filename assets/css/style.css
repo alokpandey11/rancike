@@ -292,12 +292,12 @@ h6 {
 >>>>>>> Stashed changes
   height: 270px;
 }
+
 @media screen and (max-width: 768px) {
   .aboutimage {
   padding-left:0px;
   height: 250px;
-}
-  }
+  }  
 }
 /* Mobile Navigation */
 .mobile-nav-toggle {
