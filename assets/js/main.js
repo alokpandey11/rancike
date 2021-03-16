@@ -243,6 +243,15 @@
     });
   });
 
+  const navi = document.querySelector(".clients");
+  const options = {};
+  const observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach((entry) => {
+      console.log(entry);
+    });
+  }, options);
+  observer.observe(navi);
+
   // Init AOS
   function aos_init() {
     AOS.init({
